@@ -11,8 +11,8 @@
 
     /* HSL color mode */
     /* the s property for first color was at 69 for a more pastel color look but closer to  50 gives  true color, l at  61  */
-    --first-color: hsl(var(--hue-color),60%,53%);
-    --first-color-second: hsl(var(--hue-color),69%,55%);
+    --first-color: hsl(var(--hue-color),71%,53%);
+    --first-color-second: hsl(var(--hue-color),69%,52%);
     --first-color-alt: hsl(var(--hue-color),57%,53%);
     --first-color-lighter: hsl(var(--hue-color),92%,85%);
     --title-color: hsl(var(--hue-color),8%,15%);
@@ -615,7 +615,7 @@ img {
     width: 13px;
     height: 13px;
     background-color: var(--first-color);
-    border-radius: 50%;
+    border-radius: 30%;
 }
 
 
@@ -626,7 +626,6 @@ img {
     height: 100%;
     background-color: var(--first-color);
     transform: translate(6px, -7px);
-
 }
 
 .qualification [data-content]{
@@ -1224,7 +1223,8 @@ img {
         grid-template-columns: repeat(3, 1fr);
     }
     .footer_bg{
-        padding: 3rem 0 3.5rem;
+        /* 2=3 */
+        padding: 2rem 2.5rem;
     }
     .footer_links{
         flex-direction: row;
@@ -1234,7 +1234,8 @@ img {
         justify-self: flex-end;
     }
     .footer_copy{
-        margin-top: 4.5rem;
+        /* 4.5 */
+        margin-top: 1.8rem;
     }
 }
 
@@ -1279,4 +1280,16 @@ img {
     .contact_inputs{
         grid-template-columns: repeat(2, 1fr);
     }
+    .footer_copy{
+        /* 4.5 */
+        margin-top: 1.8rem;
+    }
+    .footer_bg{
+        /* 2=3 */
+        padding: 1rem 2.5rem;
+    }
+    .footer_links{
+        column-gap: 4rem;
+    }
+
 }
