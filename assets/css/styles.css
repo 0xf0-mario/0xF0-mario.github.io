@@ -7,11 +7,12 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 1; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color:  0; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
-    --first-color: hsl(var(--hue-color),69%,61%);
-    --first-color-second: hsl(var(--hue-color),69%,61%);
+    /* the s property for first color was at 69 for a more pastel color look but closer to  50 gives  true color, l at  61  */
+    --first-color: hsl(var(--hue-color),60%,53%);
+    --first-color-second: hsl(var(--hue-color),69%,55%);
     --first-color-alt: hsl(var(--hue-color),57%,53%);
     --first-color-lighter: hsl(var(--hue-color),92%,85%);
     --title-color: hsl(var(--hue-color),8%,15%);
@@ -1039,6 +1040,13 @@ img {
     }
 
 
+}
+/* for the bug on iphones */
+@media screen and (min-width: 375px){
+    .services_container{
+        gap: 1.5em;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 /* For medium devices */
