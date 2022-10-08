@@ -525,10 +525,11 @@ img {
 
 .skills_percentage{
     display: block;
-    background-color: var(--first-color);
+    /* background-color: var(--first-color);
+    width: 100%; */
 }
 
-.skills_html{
+/* .skills_html{
     width: 85%;
 }
 
@@ -547,7 +548,7 @@ img {
 
 .skills_gitH{
     width: 90%;
-}
+} */
 
 .skills_close .skills_list {
     height: 0;
