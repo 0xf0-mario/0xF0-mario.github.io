@@ -1,3 +1,6 @@
-# 0xF00-mario.github.io
-
-backend is not yet implmented
+# 0xF0-mario.github.io
+---
+# Future Changes
+* Implement Service for email functionality 
+* Update projects
+* Considering hosting on server for fun
